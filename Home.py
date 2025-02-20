@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+from utils import footer
 
 st.title("Welcome to Customer Churn Prediction App")
 
