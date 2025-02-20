@@ -68,7 +68,7 @@ def authenticate_user(username, password):
     return False
 
 # Initialize Streamlit App
-st.title("🔐 Login System with PostgreSQL")
+st.title("🔐 Login")
 
 # Create users table
 create_users_table()
