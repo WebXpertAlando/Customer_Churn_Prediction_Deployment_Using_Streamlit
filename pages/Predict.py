@@ -259,3 +259,7 @@ if __name__ == '__main__':
             st.session_state['selected_model'] = None
             st.session_state['pipeline'] = None
             st.experimental_rerun()
+
+
+
+from utils import footer
