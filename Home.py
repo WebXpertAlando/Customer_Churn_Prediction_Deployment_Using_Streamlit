@@ -15,6 +15,10 @@ DB_CONFIG = {
 def get_db_connection():
     return psycopg2.connect(**DB_CONFIG)
 
+dsn = f"dbname={DB_CONFIG['dbname']} user={DB_CONFIG['user']} password={DB_CONFIG['password']} host={DB_CONFIG['host']} port={DB_CONFIG['port']}"
+return psycopg2.connect(dsn)
+
+
 # Function to create users table
 def create_users_table():
     conn = get_db_connection()
@@ -30,8 +34,6 @@ def create_users_table():
     cur.close()
     conn.close()
 
-dsn = f"dbname={DB_CONFIG['dbname']} user={DB_CONFIG['user']} password={DB_CONFIG['password']} host={DB_CONFIG['host']} port={DB_CONFIG['port']}"
-return psycopg2.connect(dsn)
 
 
 # Function to hash password
