@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-from utils import footer
+
 
 st.title("Welcome to Customer Churn Prediction App")
 
@@ -20,3 +20,15 @@ Make data-driven decisions, reduce churn rates, and drive business success".
     <p style="color:#000">Explore this app and discover the value of accurate churn prediction.</p>
     </div>
 ''',  unsafe_allow_html=True)
+
+
+def footer():
+    st.markdown("---")
+    st.markdown(
+        "© 2025  Developed by [Vic Alando](https://github.com/WebXpertAlando) "
+        " | Contact: 0723 205 119 | Email: [vicadventist@gmail.com](mailto:vicadventist@gmail.com)",
+        unsafe_allow_html=True,
+    )
+
+# Add footer
+footer()
