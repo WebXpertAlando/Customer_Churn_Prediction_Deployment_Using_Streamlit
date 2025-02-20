@@ -3,20 +3,14 @@ import psycopg2
 import bcrypt
 
 # Database connection
-DB_CONFIG = {
-    "dbname": "project_streamlit",
-    "user": "postgres",
-    "password": "23121618",
-    "host": "localhost",
-    "port": "5433"
-}
+dsn = f"dbname={DB_CONFIG['dbname']} user={DB_CONFIG['user']} password={DB_CONFIG['password']} host={DB_CONFIG['host']} port={DB_CONFIG['port']}"
+return psycopg2.connect(dsn)
+
 
 # Function to connect to PostgreSQL
 def get_db_connection():
     return psycopg2.connect(**DB_CONFIG)
 
-dsn = f"dbname={DB_CONFIG['dbname']} user={DB_CONFIG['user']} password={DB_CONFIG['password']} host={DB_CONFIG['host']} port={DB_CONFIG['port']}"
-return psycopg2.connect(dsn)
 
 
 # Function to create users table
