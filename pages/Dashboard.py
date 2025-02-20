@@ -136,4 +136,7 @@ if st.session_state['Button'] == 'EDA':
 elif st.session_state['Button'] == 'KPI':
     KPI_plots()
 
+
+
+from utils import footer
   
