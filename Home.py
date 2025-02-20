@@ -37,4 +37,4 @@ adsense_code = """
 """
 
 # Embed Ad Code in Streamlit
-st.markdown(adsense_code, unsafe_allow_html=True
+st.markdown(adsense_code, unsafe_allow_html=True)
