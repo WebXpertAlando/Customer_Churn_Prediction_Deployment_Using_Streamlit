@@ -7,7 +7,7 @@ image = Image.open('images/customer-retention.jpg')
 # Display the image
 st.image(image, use_container_width=True)
 
-st.markdown(""'
+st.markdown("""
 A customer retention strategy helps you keep your customers around longer, which helps you avoid having to go out and find new ones.
 
 - Get to the root of the Churn.
