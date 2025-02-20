@@ -3,9 +3,10 @@ import psycopg2
 import bcrypt
 
 # Database connection
+def: get_db_connection(): {
 dsn = f"dbname={DB_CONFIG['dbname']} user={DB_CONFIG['user']} password={DB_CONFIG['password']} host={DB_CONFIG['host']} port={DB_CONFIG['port']}"
 return psycopg2.connect(dsn)
-
+}
 
 # Function to connect to PostgreSQL
 def get_db_connection():
