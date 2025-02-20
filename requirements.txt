@@ -58,7 +58,7 @@ pyodbc
 pyparsing
 python-dateutil
 pytz
-
+psycopg2
 PyYAML
 pyzmq
 referencing
