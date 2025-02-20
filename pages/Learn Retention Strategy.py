@@ -21,3 +21,6 @@ A customer retention strategy helps you keep your customers around longer, which
 - Follow up with customers.
 - Develop a data roadmap and stick to it.
 """)
+
+
+from utils import footer
