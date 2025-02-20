@@ -23,3 +23,8 @@ Make data-driven decisions, reduce churn rates, and drive business success".
 
 
 from utils import footer
+
+st.markdown("""
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5686744668296213"
+     crossorigin="anonymous"></script>""", unsafe_allow_html=True)
+
