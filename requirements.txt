@@ -28,7 +28,7 @@ jedi
 Jinja2
 joblib
 jsonschema
-jsonschema-specificati+ons
+jsonschema-specifications
 jupyter_core
 kiwisolver
 markdown-it-py
