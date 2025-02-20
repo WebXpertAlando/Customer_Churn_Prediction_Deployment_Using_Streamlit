@@ -10,7 +10,7 @@ image = Image.open('images/customer-churn.jpg')
 # Display the image
 st.image(image, use_container_width=True)
 
-<h1 style="color:#000">Empowering Users, Democratizing Data</h1>
+st.write('''<h1 style="color:#000">Empowering Users, Democratizing Data</h1>
 st.write("Our app goes beyond predictive analytics, democratizing data and putting the power in your hands")
 st.write("Make data-driven decisions, reduce churn rates, and drive business success").
 
@@ -18,3 +18,4 @@ st.write("Make data-driven decisions, reduce churn rates, and drive business suc
     <h1 style="color:#000">GET STARTED TODAY!</h1>
     <p style="color:#000">Explore this app and discover the value of accurate churn prediction.</p>
     </div>
+''',  unsafe_allow_html=True)
