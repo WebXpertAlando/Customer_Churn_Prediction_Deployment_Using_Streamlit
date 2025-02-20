@@ -48,3 +48,5 @@ st.write('''
     <p style="color:#000">Explore our app and discover the value of accurate churn prediction.</p>
     </div>
     ''', unsafe_allow_html=True)
+
+from utils import footer
