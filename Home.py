@@ -13,7 +13,7 @@ DB_CONFIG = {
 
 # Function to connect to PostgreSQL
 def get_db_connection():
-    return psycopg2.connect(**DB_CONFIG)
+    return psycopg2.connect(DB_CONFIG)
 
 # Function to create users table
 def create_users_table():
