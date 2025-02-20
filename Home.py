@@ -24,7 +24,7 @@ def get_db_connection():
             password TEXT NOT NULL
             )
             """)
-         conn.commit()
+        conn.commit()
         cur.close()
         conn.close()
 
