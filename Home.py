@@ -9,7 +9,7 @@ return psycopg2.connect(dsn)
 
 # Function to connect to PostgreSQL
 def get_db_connection():
-    return psycopg2.connect(**DB_CONFIG)
+
 
 
 
