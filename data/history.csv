@@ -1,0 +1,3 @@
+tenure,monthlycharges,totalcharges,partner,dependents,phoneservice,multiplelines,internetservice,onlinesecurity,onlinebackup,deviceprotection,techsupport,streamingtv,streamingmovies,contract,paperlessbilling,paymentmethod,seniorcitizen,gender,prediction,churn probability %,remain probability %,model_used
+27,50,1350,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,24.04,75.96,Logistic_Regression
+27,70,1890,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,35.31,64.69,Logistic_Regression
