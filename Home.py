@@ -24,7 +24,17 @@ Make data-driven decisions, reduce churn rates, and drive business success".
 
 from utils import footer
 
-st.markdown("""
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5686744668296213"
-     crossorigin="anonymous"></script>""", unsafe_allow_html=True)
+# Google AdSense Ad Code 
+adsense_code = """
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5686744668296213"
+     data-ad-format="auto"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+"""
 
+# Embed Ad Code in Streamlit
+st.markdown(adsense_code, unsafe_allow_html=True
