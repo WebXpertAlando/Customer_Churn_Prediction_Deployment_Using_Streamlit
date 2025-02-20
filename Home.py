@@ -5,4 +5,4 @@ from PIL import Image
 image = Image.open('images/customer-churn.jpg')
 
 # Display the image
-st.image(image, caption="Churn", use_column_width=True)
+st.image(image, caption="Churn", use_container_width=True)
