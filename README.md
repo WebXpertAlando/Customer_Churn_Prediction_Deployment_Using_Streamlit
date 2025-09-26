@@ -36,6 +36,8 @@ categorical data represents discrete values or categories, such as gender, count
 ## 4.  Model Development
      The model has been deployed using streamlit. 
 
+[
+https://customerchurnpredictiondeploymentusingapp.streamlit.app/]
 
 
 
